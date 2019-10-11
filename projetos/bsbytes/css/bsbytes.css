@@ -1,0 +1,70 @@
+/*tags*/
+*{
+    margin:0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+    background-color:rgb(0,0,0);
+    display: block;
+    padding: 35px 15px;
+    color:rgb(51, 139, 70);
+}
+
+h1{
+ color: white;
+}
+
+body{
+    font-family: arial;
+    background-color: rgb(0,0,0);
+    color: rgb(0, 0, 0);
+}
+
+ul{
+list-style: none;
+position: absolute;
+top: 70px;
+
+}
+
+nav{
+    background-color:rgb(0,0,0);
+    width: 350px;
+    height: 100%;
+    left: -350;
+    position: relative;
+}
+
+a:hover{
+background-color:whitesmoke;
+color: rgb(0,0,0);
+}
+
+header{
+margin-left: 38%;
+
+}
+
+
+label{
+    background-color: rgb(0,0,0);
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+    background-color:rgb(0,0,0);
+}
+
+/*ids*/
+#topo{
+   width:  40px;
+   position: static;
+}
+#chec{
+    display: none;
+
+}
+#chec:checked ~ nav {
+    transform: translateX(350px)
+}
